@@ -21,6 +21,7 @@ import android.widget.TextView;
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.ramzi.messanger.ui.LoginActivity;
 import com.ramzi.messanger.ui.UserFragment;
 import com.ramzi.messanger.utils.RoundTransform;
 import com.squareup.picasso.Picasso;

@@ -1,4 +1,4 @@
-package com.ramzi.messanger;
+package com.ramzi.messanger.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.ramzi.messanger.MainActivity;
+import com.ramzi.messanger.R;
 import com.ramzi.messanger.models.User;
 import com.ramzi.messanger.utils.DB;
 
