@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#44b4d6</color>
+    <color name="colorPrimaryDark">#286fc6</color>
+    <color name="colorAccent">#33e966</color>
+    <color name="borderColor">#999898</color>
+    <color name="friendMsgColor">#dad4d4</color>
+</resources>

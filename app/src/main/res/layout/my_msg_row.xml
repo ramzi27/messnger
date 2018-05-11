@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right|center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/myMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="@dimen/msg_margin"
+        android:background="@drawable/my_msg_bck"
+        android:maxWidth="@dimen/max_msg_size"
+        android:padding="@dimen/msg_padding"
+        android:textAppearance="@style/AppTheme.MyMsgTheme"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/myMsgTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="2dp"
+        android:gravity="right"
+        android:textSize="12sp"
+        android:visibility="gone" />
+</LinearLayout>

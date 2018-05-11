@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "800025542249",
+    "firebase_url": "https://distributed-project-f8de7.firebaseio.com",
+    "project_id": "distributed-project-f8de7",
+    "storage_bucket": "distributed-project-f8de7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800025542249:android:77db02730cddc1ea",
+        "android_client_info": {
+          "package_name": "com.ramzi.messanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800025542249-p6g9tnmh5bfcl73s5l09esir7iasscq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARb5uf5XPcvc8QFZxaoyWNdVdWR65CW8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

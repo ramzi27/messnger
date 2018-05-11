@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/friendMsgImage"
+        android:layout_width="@dimen/avatar_width"
+        android:layout_height="@dimen/avatar_height"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_account_placeholder" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/friendMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="@dimen/msg_margin"
+            android:background="@drawable/friend_msg_bck"
+            android:maxWidth="@dimen/max_msg_size"
+            android:padding="@dimen/msg_padding"
+            android:paddingEnd="@dimen/msg_height_padding"
+            android:paddingTop="@dimen/msg_height_padding"
+            android:textAppearance="@style/AppTheme.MyMsgTheme"
+            android:textColor="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/friendMsgTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/friendName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
