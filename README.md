@@ -1,5 +1,5 @@
 ## **My Messanger**
-Andoid messanger app that lets people communicate with each other
+Android messenger app that lets people communicate with each other
 
 **Features:**
  1. login with email or gmail 
